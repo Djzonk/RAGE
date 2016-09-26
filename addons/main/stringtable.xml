@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project name="RAGE">
+    <Package name="Main">
+        <Key ID="STR_RAGE_Main_Author">
+            <English>Rage Mod Team</English>
+        </Key>
+        <Key ID="STR_RAGE_Main_URL">
+            <English>http://2ndrangers-arma3.enjin.com/home</English>
+        </Key>
+    </Package>
+</Project>
