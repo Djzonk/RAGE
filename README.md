@@ -15,11 +15,8 @@
     <a href="https://github.com/acemod/arma-project-template/blob/master/LICENSE">
         <img src="https://img.shields.io/badge/License-MIT-red.svg?style=flat-square" alt="RAGE License">
     </a>
-    <a href="http://slackin.ace3mod.com/">
-        <img src="http://slackin.ace3mod.com/badge.svg?style=flat-square&label=Slack" alt="ACE3 Slack">
-    </a>
     <a href="https://travis-ci.org/acemod/arma-project-template">
-        <img src="https://img.shields.io/travis/acemod/arma-project-template.svg?style=flat-square&label=Build" alt="ACE Project Template Build Status">
+        <img src="https://img.shields.io/travis/acemod/arma-project-template.svg?style=flat-square&label=Build" alt="RAGE Build Status">
     </a>
 </p>
 
