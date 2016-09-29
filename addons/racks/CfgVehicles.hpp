@@ -2,7 +2,7 @@ class CfgVehicles {
     class Items_base_f;
     class rage_rack_45 : Items_base_f {
         scope = 2;
-        model = "";
+        model = QPATHTOF(data\45rack.p3d);
         displayname = "Weapon Rack 45in";
         editorCategory = "EdCat_Supplies";
         class AnimationSources {
