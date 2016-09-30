@@ -10,11 +10,26 @@ class CfgVehicles {
         class AnimationSources {
             class left1_rotation {
                 source = "user";
-                animPeriod = 1;
+                animPeriod = 1
+                initPhase = 0;
+            };
+            class left2_rotation {
+                source = "user";
+                animPeriod = 1
+                initPhase = 0;
+            };
+            class right1_rotation {
+                source = "user";
+                animPeriod = 1
+                initPhase = 0;
+            };
+            class right2_rotation {
+                source = "user";
+                animPeriod = 1
                 initPhase = 0;
             };
         };
-        //todo disable box inventory when door is closed 
+        //todo disable box inventory when door is closed
         class ACE_Actions {
             class Open_Door {
                 displayname = CSTRING(Opendoor);
