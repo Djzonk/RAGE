@@ -1,31 +1,37 @@
 class CfgVehicles {
     class Items_base_f;
-    class rage_rack_45 : Items_base_f {
+    class RAGE_Rack45 : Items_base_f {
         scope = 2;
-        model = QPATHTOF(data\45rack.p3d);
-        displayname = "Weapon Rack 45in";
+        scopeCurator = 2;
+        displayname = CSTRING(Displayname);
         editorCategory = "EdCat_Supplies";
+        model = QPATHTOF(data\RAGE_Rack45.p3d);
         class AnimationSources {
-            class left1Rotation {
+            class left1_rotation {
                 source = "user";
-                animPeriod = 2;
+                animPeriod = 1;
                 initPhase = 0;
             };
         };
         class ACE_Actions {
-            class openDoor {
-                displayname = "Open Door";
-                condition = "true";
-                statement = "this animateSource [""left1Rotation"", 1]";
+            class ACE_MainAction {
+                selection = "";
                 distance = 5;
-                selection = "actionPoint";
-            };
-            class closeDoor {
-                displayname = "close Door";
-                condition = "true";
-                statement = "this animateSource [""left1Rotation"", 0]";
-                distance = 5;
-                selection = "actionPoint";
+                class Open_Door {
+                    displayname = CSTRING(Opendoor);
+                    condition = true;
+                    statement = QUOTE(_this animate [QUOTE(left1_rotation), 1]);
+                    distance = 5;
+                    selection = "";
+
+                };
+                class Close_Door {
+                    displayname = CSTRING(Closedoor);
+                    condition = true;
+                    statement = QUOTE(_this animate [QUOTE(left1_rotation), 0]);
+                    distance = 5;
+                    selection = "";
+                };
             };
         };
     };
