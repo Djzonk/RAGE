@@ -14,6 +14,7 @@ class CfgVehicles {
                 initPhase = 0;
             };
         };
+        //todo disable box inventory when door is closed 
         class ACE_Actions {
             class Open_Door {
                 displayname = CSTRING(Opendoor);
