@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project name="RAGE">
+    <Package name="racks">
+        <Key ID="STR_RAGE_Racks_Displayname">
+            <English>Weapon Rack 45"</English>
+        </Key>
+        <Key ID="STR_RAGE_Racks_Opendoor">
+            <English>Open Door</English>
+        </Key>
+        <Key ID="STR_RAGE_Racks_CloseDoor">
+            <English>Close Door</English>
+        </Key>
+    </Package>
+</Project>
