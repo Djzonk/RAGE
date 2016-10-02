@@ -28,6 +28,16 @@ class CfgVehicles {
                 animPeriod = 1;
                 initPhase = 0;
             };
+            class left_translation {
+                source = "user";
+                animPeriod = 1;
+                initPhase = 0;
+            };
+            class right_translation {
+                source = "user";
+                animPeriod = 1;
+                initPhase = 0;
+            };
         };
         //todo disable box inventory when door is closed
         class ACE_Actions {
