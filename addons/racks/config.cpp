@@ -3,7 +3,7 @@
 class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
-        units[] = {};
+        units[] = {"rage_rack45"};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"rage_main"};
@@ -14,4 +14,5 @@ class CfgPatches {
     };
 };
 
+#include "CfgVehicles.hpp"
 #include "CfgEventHandlers.hpp"

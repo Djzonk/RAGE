@@ -23,3 +23,5 @@
 <p align="center">
     <sup><strong>Requires the latest version of <a href="https://github.com/CBATeam/CBA_A3/releases">CBA A3</a> and <a href="https://github.com/acemod/ACE3/releases">ACE3</a>.<br/></strong></sup>
 </p>
+
+ Ranger Augmented Gear Expansion (RAGE) if a Arma 3 Modification made by and for the 2nd Rangers Milsim community
