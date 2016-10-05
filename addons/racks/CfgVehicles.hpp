@@ -41,19 +41,26 @@ class CfgVehicles {
         };
         //todo disable box inventory when door is closed
         class ACE_Actions {
-            class Open_Door {
-                displayname = CSTRING(Opendoor);
-                condition = QUOTE(_target animationPhase QUOTE(QUOTE(left1_rotation))  == 0 && alive _target);
-                statement = QUOTE([ARR_2(_target, 1)] call FUNC(animate));
-                selection = "actionPoint";
-                distance = 2;
-            };
-            class Close_Door {
-                displayname = CSTRING(Closedoor);
-                condition = QUOTE(_target animationPhase QUOTE(QUOTE(left1_rotation))  == 1 && alive _target);
-                statement = QUOTE([ARR_2(_target, 0)] call FUNC(animate));
-                selection = "actionPoint";
-                distance = 2;
+            class ACE_MainActions {
+                condition = "true";
+                distance = 3;
+                selection = "";
+                class GVAR(Open) {
+                    displayname = CSTRING(Opendoor);
+                    condition = QUOTE(_target animationPhase QUOTE(QUOTE(left1_rotation))  == 0 && alive _target);
+                    statement = QUOTE([ARR_2(_target, 1)] call FUNC(animate));
+                    exceptions[] = {};
+                    distance = 3;
+                    selection = "";
+                };
+                class GVAR(Close) {
+                    displayname = CSTRING(Closedoor);
+                    condition = QUOTE(_target animationPhase QUOTE(QUOTE(left1_rotation))  == 1 && alive _target);
+                    statement = QUOTE([ARR_2(_target, 0)] call FUNC(animate));
+                    exceptions[] = {};
+                    distance = 3;
+                    selection = "";
+                };
             };
         };
     };
