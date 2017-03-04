@@ -1,7 +1,7 @@
 // COMPONENT should be defined in the script_component.hpp and included BEFORE this hpp
 
 #define MAINPREFIX z
-#define PREFIX rage
+#define PREFIX t1me
 
 #define MAJOR 1
 #define MINOR 0
@@ -11,7 +11,7 @@
 #define VERSION MAJOR.MINOR.PATCHLVL.BUILD
 #define VERSION_AR MAJOR,MINOR,PATCHLVL,BUILD
 
-#define RAGE_TAG RAGE
+#define T1ME_TAG T1ME
 
 // MINIMAL required version for the Mod. Components can specify others..
 #define REQUIRED_VERSION 1.56

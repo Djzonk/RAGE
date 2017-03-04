@@ -6,7 +6,7 @@ import subprocess
 
 ######## GLOBALS #########
 MAINPREFIX = "z"
-PREFIX = "rage_"
+PREFIX = "t1me_"
 ##########################
 
 def mod_time(path):
@@ -32,7 +32,7 @@ def check_for_obsolete_pbos(addonspath, file):
 def main():
     print("""
   ####################
-  # RAGE Debug Build #
+  # T1ME Debug Build #
   ####################
 """)
 

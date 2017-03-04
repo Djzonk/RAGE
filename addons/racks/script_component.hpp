@@ -1,6 +1,6 @@
 #define COMPONENT racks
 #define COMPONENT_BEAUTIFIED Racks
-#include "\z\rage\addons\main\script_mod.hpp"
+#include "\z\t1me\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL
 // #define DISABLE_COMPILE_CACHE
@@ -15,4 +15,4 @@
     #define DEBUG_SETTINGS DEBUG_SETTINGS_RACKS
 #endif
 
-#include "\z\rage\addons\main\script_macros.hpp"
+#include "\z\t1me\addons\main\script_macros.hpp"

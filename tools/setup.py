@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 #######################
-#  RAGE Setup Script  #
+#  T1ME Setup Script  #
 #######################
 
 import os
@@ -13,26 +13,26 @@ import winreg
 
 ######## GLOBALS #########
 MAINDIR = "z"
-PROJECTDIR = "rage"
+PROJECTDIR = "t1me"
 ##########################
 
 def main():
     FULLDIR = "{}\\{}".format(MAINDIR,PROJECTDIR)
     print("""
   ######################################
-  # RAGE Development Environment Setup #
+  # T1ME Development Environment Setup #
   ######################################
 
-  This script will create your RAGE dev environment for you.
+  This script will create your T1ME dev environment for you.
 
   Before you run this, you should already have:
     - A properly setup ACE3 Development Environment
 
   If you have not done those things yet, please abort this script in the next step and do so first.
 
-  This script will create two hard links on your system, both pointing to your RAGE project folder:
-    [Arma 3 installation directory]\\{} => RAGE project folder
-    P:\\{}                              => RAGE project folder
+  This script will create two hard links on your system, both pointing to your T1ME project folder:
+    [Arma 3 installation directory]\\{} => T1ME project folder
+    P:\\{}                              => T1ME project folder
     """.format(FULLDIR,FULLDIR))
     print("\n")
 

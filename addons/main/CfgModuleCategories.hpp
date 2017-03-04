@@ -1,14 +1,14 @@
 class CfgFactionClasses {
     class NO_CATEGORY;
-    class RAGE: NO_CATEGORY {
-        displayName = "RAGE";
+    class T1ME: NO_CATEGORY {
+        displayName = "T1ME";
         priority = 2;
         side = 7;
     };
 };
 
 class CfgVehicleClasses {
-    class RAGE_Vehicles {
-        displayName = "RAGE Vehicles";
+    class T1ME_Vehicles {
+        displayName = "T1ME Vehicles";
     };
 };

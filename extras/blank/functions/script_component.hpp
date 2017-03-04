@@ -1,1 +1,1 @@
-#include "\z\rage\addons\blank\script_component.hpp"
+#include "\z\t1me\addons\blank\script_component.hpp"
