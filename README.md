@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://github.com/Djzonk/T1ME/raw/master/extras/assets/logo/T1ME_logo.svg" width="480">
+    <img src="https://raw.githubusercontent.com/Djzonk/T1ME/master/extras/assets/logo/T1ME-logo.png" width="480">
 </p>
 
 <p align="center">
