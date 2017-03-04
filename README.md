@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://github.com/acemod/ACE3/raw/master/extras/assets/logo/black/ACE3-Logo.jpg" width="480">
+    <img src="https://github.com/Djzonk/T1ME/raw/master/extras/assets/logo/T1ME_logo.svg" width="480">
 </p>
 
 <p align="center">
@@ -13,7 +13,7 @@
         <img src="https://img.shields.io/github/issues/Djzonk/T1ME.svg?style=flat-square" alt="T1ME Issues">
     </a>
     <a href="https://raw.githubusercontent.com/Djzonk/T1ME/master/LICENSE">
-        <img src="https://img.shields.io/github/license/Djzonk/T1ME.svg?style=flat-square" alt="T1ME License">
+        <img src="https://img.shields.io/badge/License-GPLv3-red.svg?style=flat-square" alt="T1ME License">
     </a>
 </p>
 
