@@ -1,12 +1,12 @@
 class CfgVehicles {
     class NATO_Box_Base;
-    class RAGE_Rack45 : NATO_Box_Base {
+    class T1ME_Rack45 : NATO_Box_Base {
         scope = 2;
         scopeCurator = 2;
         priority = 5;
         displayname = CSTRING(Displayname);
         editorCategory = "EdCat_Supplies";
-        model = QPATHTOF(data\RAGE_Rack45.p3d);
+        model = QPATHTOF(data\T1ME_Rack45.p3d);
         class AnimationSources {
             class left1_rotation {
                 source = "user";

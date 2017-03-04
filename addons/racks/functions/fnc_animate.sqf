@@ -10,7 +10,7 @@
  * None
  *
  * Example:
- * [_target, 1] call rage_racks_fnc_animate;
+ * [_target, 1] call t1me_racks_fnc_animate;
  *
  * Public: No
  */

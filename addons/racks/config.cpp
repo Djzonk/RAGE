@@ -3,10 +3,10 @@
 class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
-        units[] = {"rage_rack45"};
+        units[] = {"t1me_rack45"};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"rage_main"};
+        requiredAddons[] = {"t1me_main"};
         author = ECSTRING(main,Author);
         authors[] = {"DjZonk"};
         url = ECSTRING(main,URL);
