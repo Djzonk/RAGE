@@ -1,12 +1,12 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Djzonk/T1ME/master/extras/assets/logo/T1ME-logo.png" width="480">
+    <img src="https://cdn.rawgit.com/Djzonk/T1ME/d2c2a59b/extras/assets/logo/T1ME-Logo.jpg" width="480">
 </p>
 
 <p align="center">
-    <a href="https://github.com/acemod/ACE3/releases/latest">
+    <a href="https://github.com/Djzonk/T1ME/releases/latest">
         <img src="https://img.shields.io/github/release/Djzonk/T1ME.svg?style=flat-square" alt="T1ME Version">
     </a>
-    <a href="https://github.com/acemod/ACE3/releases/latest">
+    <a href="https://github.com/Djzonk/T1ME/releases/latest">
         <img src="https://img.shields.io/github/downloads/Djzonk/T1ME/total.svg?style=flat-square" alt="T1ME Downloads">
     </a>
     <a href="https://github.com/Djzonk/T1ME/issues">
