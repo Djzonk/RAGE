@@ -1,0 +1,3 @@
+
+PREP(deleteAllCargo);
+PREP(getAllCargo);

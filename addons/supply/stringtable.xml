@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project name="T1ME">
+    <Package name="Supply">
+        <Key ID="STR_T1ME_Supply_weaponAmmo">
+            <English>[T1ME] Ammo [Small]</English>
+        </Key>
+        <Key ID="STR_T1ME_Supply_weaponAmmoMedium">
+            <English>[T1ME] Ammo [Medium]</English>
+        </Key>
+        <Key ID="STR_T1ME_Supply_weaponAmmoLarge">
+            <English>[T1ME] Ammo [Large]</English>
+        </Key>
+        <Key ID="STR_T1ME_Supply_medical">
+            <English>[T1ME] Medical Supplies [Small]</English>
+        </Key>
+        <Key ID="STR_T1ME_Supply_medicalMedium">
+            <English>[T1ME] Medical Supplies [Medium]</English>
+        </Key>
+        <Key ID="STR_T1ME_Supply_medicalLarge">
+            <English>[T1ME] Medical Supplies [Large]</English>
+        </Key>
+        <Key ID="STR_T1ME_Supply_equipment">
+            <English>[T1ME] Equipment</English>
+        </Key>
+        <Key ID="STR_T1ME_Supply_radioEquipment">
+            <English>[T1ME] Radio Equipment</English>
+        </Key>
+        <Key ID="STR_T1ME_Supply_facewhere">
+            <English>[T1ME] Face Where</English>
+        </Key>
+        <Key ID="STR_T1ME_Supply_explosivesEquipment">
+            <English>[T1ME] Explosives</English>
+        </Key>
+        <Key ID="STR_T1ME_Supply_launcher">
+            <English>[T1ME] Launchers</English>
+        </Key>
+        <Key ID="STR_T1ME_Supply_grenade">
+            <English>[T1ME] Grenades</English>
+        </Key>
+    </Package>
+</Project>

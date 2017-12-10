@@ -8,7 +8,7 @@ class CfgFactionClasses {
 };
 
 class CfgVehicleClasses {
-    class T1ME_Vehicles {
-        displayName = "T1ME Vehicles";
+    class T1ME_Object {
+        displayName = "T1ME";
     };
 };

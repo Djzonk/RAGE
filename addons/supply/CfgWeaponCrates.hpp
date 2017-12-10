@@ -1,0 +1,90 @@
+class T1ME_weaponSupplyCrate: Box_NATO_Wps_f {
+    author = ECSTRING(main,Author);
+    displayName = CSTRING(weapon);
+    maximumLoad = 10000;
+    class TransportWeapons {
+        // Rifles
+        MACRO_ADDWEAPON(rhs_weap_m16a4,20);
+        MACRO_ADDWEAPON(rhs_weap_m16a4_pmag,20);
+        MACRO_ADDWEAPON(rhs_weap_m4,20);
+        MACRO_ADDWEAPON(rhs_weap_m4_carryhandle,20);
+        MACRO_ADDWEAPON(rhs_weap_m4_carryhandle_mstock,20);
+        MACRO_ADDWEAPON(rhs_weap_m4_carryhandle_pmag,20);
+        MACRO_ADDWEAPON(rhs_weap_m4_m203,20);
+        MACRO_ADDWEAPON(rhs_weap_m4_m203S,20);
+        MACRO_ADDWEAPON(rhs_weap_m4_m320,20);
+        MACRO_ADDWEAPON(rhs_weap_m4_mstock,20);
+        MACRO_ADDWEAPON(rhs_weap_m4_pmag,20);
+        MACRO_ADDWEAPON(rhs_weap_m4a1,20);
+        MACRO_ADDWEAPON(rhs_weap_m4a1_blockII,20);
+        MACRO_ADDWEAPON(rhs_weap_m4a1_blockII_bk,20);
+        MACRO_ADDWEAPON(rhs_weap_m4a1_blockII_d,20);
+        MACRO_ADDWEAPON(rhs_weap_m4a1_blockII_KAC,20);
+        MACRO_ADDWEAPON(rhs_weap_m4a1_blockII_KAC_d,20);
+        MACRO_ADDWEAPON(rhs_weap_m4a1_blockII_M203,20);
+        MACRO_ADDWEAPON(rhs_weap_m4a1_blockII_M203_bk,20);
+        MACRO_ADDWEAPON(rhs_weap_m4a1_blockII_M203_d,20);
+        MACRO_ADDWEAPON(rhs_weap_m4a1_blockII_M203_SU230,20);
+        MACRO_ADDWEAPON(rhs_weap_m4a1_carryhandle,20);
+        MACRO_ADDWEAPON(rhs_weap_m4a1_carryhandle_m203,20);
+        MACRO_ADDWEAPON(rhs_weap_m4a1_carryhandle_m203S,20);
+        MACRO_ADDWEAPON(rhs_weap_m4a1_carryhandle_mstock,20);
+        MACRO_ADDWEAPON(rhs_weap_m4a1_carryhandle_pmag,20);
+        MACRO_ADDWEAPON(rhs_weap_m4a1_d,20);
+        MACRO_ADDWEAPON(rhs_weap_m4a1_d_mstock,20);
+        MACRO_ADDWEAPON(rhs_weap_m4a1_m203,20);
+        MACRO_ADDWEAPON(rhs_weap_m4a1_m203s,20);
+        MACRO_ADDWEAPON(rhs_weap_m4a1_m203s_d,20);
+        MACRO_ADDWEAPON(rhs_weap_m4a1_m320,20);
+        MACRO_ADDWEAPON(rhs_weap_m4a1_mstock,20);
+        MACRO_ADDWEAPON(rhs_weap_m4a1_pmag,20);
+        MACRO_ADDWEAPON(rhs_weap_mk18,20);
+        MACRO_ADDWEAPON(rhs_weap_mk18_bk,20);
+        MACRO_ADDWEAPON(rhs_weap_mk18_d,20);
+        MACRO_ADDWEAPON(rhs_weap_mk18_KAC,20);
+        MACRO_ADDWEAPON(rhs_weap_mk18_KAC_bk,20);
+        MACRO_ADDWEAPON(rhs_weap_mk18_KAC_d,20);
+        MACRO_ADDWEAPON(rhs_weap_mk18_m320,20);
+        // MGs
+        MACRO_ADDWEAPON(LMG_03_F,20);
+        MACRO_ADDWEAPON(rhs_weap_m240B,20);
+        MACRO_ADDWEAPON(rhs_weap_m240B_CAP,20);
+        MACRO_ADDWEAPON(rhs_weap_m240G,20);
+        MACRO_ADDWEAPON(rhs_weap_m249,20);
+        MACRO_ADDWEAPON(rhs_weap_m249_pip,20);
+        MACRO_ADDWEAPON(rhs_weap_m249_pip_L,20);
+        MACRO_ADDWEAPON(rhs_weap_m249_pip_L_para,20);
+        MACRO_ADDWEAPON(rhs_weap_m249_pip_L_vfg,20);
+        MACRO_ADDWEAPON(rhs_weap_m249_pip_S,20);
+        MACRO_ADDWEAPON(rhs_weap_m249_pip_S_para,20);
+        MACRO_ADDWEAPON(rhs_weap_m249_pip_S_vfg,20);
+        MACRO_ADDWEAPON(rhs_weap_m27iar,20);
+        // Marksmen Rifles
+        MACRO_ADDWEAPON(rhs_weap_M107,20);
+        MACRO_ADDWEAPON(rhs_weap_m14ebrri,20);
+        MACRO_ADDWEAPON(rhs_weap_m24sws,20);
+        MACRO_ADDWEAPON(rhs_weap_m24sws_blk,20);
+        MACRO_ADDWEAPON(rhs_weap_m24sws_ghillie,20);
+        MACRO_ADDWEAPON(rhs_weap_m40a5,20);
+        MACRO_ADDWEAPON(rhs_weap_m40a5_d,20);
+        MACRO_ADDWEAPON(rhs_weap_sr25,20);
+        MACRO_ADDWEAPON(rhs_weap_sr25_d,20);
+        MACRO_ADDWEAPON(rhs_weap_sr25_ec,20);
+        MACRO_ADDWEAPON(rhs_weap_sr25_ec_d,20);
+        MACRO_ADDWEAPON(rhs_weap_XM2010,20);
+        MACRO_ADDWEAPON(rhs_weap_XM2010_sa,20);
+        // Pistols
+        MACRO_ADDWEAPON(hgun_ACPC2_F,20);
+        MACRO_ADDWEAPON(hgun_Pistol_heavy_01_F,20);
+        // Special
+        MACRO_ADDWEAPON(rhs_weap_m32,20);
+        MACRO_ADDWEAPON(rhs_weap_M320,20);
+        MACRO_ADDWEAPON(rhs_weap_M590_5RD,20);
+        MACRO_ADDWEAPON(rhs_weap_M590_8RD,20);
+        MACRO_ADDWEAPON(rhsusf_weap_glock17g4,20);
+        MACRO_ADDWEAPON(rhsusf_weap_m1911a1,20);
+        MACRO_ADDWEAPON(rhsusf_weap_m9,20);
+    };
+    class TransportMagazines {};
+};
+
