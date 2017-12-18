@@ -4,7 +4,7 @@ class T1ME_metalAmmoCrate: T1ME_ammoCrateBase {
 
     class TransportMagazines {
         // Carbine
-        MACRO_ADDMAGAZINE(rhs_mag_30Rnd_556x45_Mk318_Stanag,50);
+        MACRO_ADDMAGAZINE(rhs_mag_30Rnd_556x45_M855A1_Stanag,50);
         MACRO_ADDMAGAZINE(rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red,15);
 
         MACRO_ADDMAGAZINE(rhsusf_mag_17Rnd_9x19_FMJ,10); // Glock 17
@@ -13,21 +13,28 @@ class T1ME_metalAmmoCrate: T1ME_ammoCrateBase {
         // Gernades
         MACRO_ADDMAGAZINE(rhs_mag_m67,20);
         MACRO_ADDMAGAZINE(ACE_M84,20);  // Stun
-        // GL Rounds
-        MACRO_ADDMAGAZINE(rhs_mag_M433_HEDP,20);
-        MACRO_ADDMAGAZINE(ACE_HuntIR_M203,5);
+
         // Hand Thrown Smoke
         MACRO_ADDMAGAZINE(SmokeShell,10);
         MACRO_ADDMAGAZINE(SmokeShellBlue,10);
         MACRO_ADDMAGAZINE(SmokeShellGreen,10);
         MACRO_ADDMAGAZINE(SmokeShellPurple,10);
         MACRO_ADDMAGAZINE(SmokeShellRed,10);
+        // GL Rounds
+        MACRO_ADDMAGAZINE(rhs_mag_M433_HEDP,20);
+        MACRO_ADDMAGAZINE(ACE_HuntIR_M203,5);
         // GL Smoke Rounds
         MACRO_ADDMAGAZINE(1Rnd_Smoke_Grenade_shell,10);
         MACRO_ADDMAGAZINE(1Rnd_SmokeBlue_Grenade_shell,10);
         MACRO_ADDMAGAZINE(1Rnd_SmokeGreen_Grenade_shell,10);
         MACRO_ADDMAGAZINE(1Rnd_SmokePurple_Grenade_shell,10);
         MACRO_ADDMAGAZINE(1Rnd_SmokeRed_Grenade_shell,10);
+        // GL Flare Rounds
+        MACRO_ADDMAGAZINE(UGL_FlareWhite_F,10);
+        MACRO_ADDMAGAZINE(UGL_FlareGreen_F,10);
+        MACRO_ADDMAGAZINE(UGL_FlareRed_F,10);
+        MACRO_ADDMAGAZINE(UGL_FlareYellow_F,10);
+        MACRO_ADDMAGAZINE(UGL_FlareCIR_F,10);
         // Launcher Ammo
         MACRO_ADDMAGAZINE(rhs_fgm148_magazine_AT,5);
         MACRO_ADDMAGAZINE(rhs_fim92_mag,5);
@@ -52,6 +59,12 @@ class T1ME_metalGrenadeCrate: T1ME_grenadeCrateBase {
         MACRO_ADDMAGAZINE(rhs_mag_M433_HEDP,20);
         MACRO_ADDMAGAZINE(rhs_mag_M441_HE,20);
         MACRO_ADDMAGAZINE(ACE_HuntIR_M203,10);
+        // GL Flare Rounds
+        MACRO_ADDMAGAZINE(UGL_FlareWhite_F,20);
+        MACRO_ADDMAGAZINE(UGL_FlareGreen_F,20);
+        MACRO_ADDMAGAZINE(UGL_FlareRed_F,20);
+        MACRO_ADDMAGAZINE(UGL_FlareYellow_F,20);
+        MACRO_ADDMAGAZINE(UGL_FlareCIR_F,20);
         // Hand Thrown Smoke
         MACRO_ADDMAGAZINE(SmokeShell,20);
         MACRO_ADDMAGAZINE(SmokeShellBlue,20);
